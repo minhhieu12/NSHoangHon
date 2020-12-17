@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="8f1b934e-5aae-47bc-bb5c-e038e12648f9">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="162" splitType="Stretch">
+			<staticText>
+				<reportElement x="147" y="43" width="307" height="20" uuid="50ee5dd3-cc88-4b59-a098-1e4201094167"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Địa chỉ: 200, Trần Văn Ơn, Phú Hoà, TDM, Bình Dương]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="190" y="99" width="221" height="26" uuid="56462f7a-f180-4586-bbd4-642d99bbbc52"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HOÁ ĐƠN BÁN HÀNG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="133" y="63" width="148" height="20" uuid="36bd234e-8ce9-4544-bc94-5a12bd01b643"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Điện thoại: 0346489037]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="190" y="17" width="221" height="26" uuid="30e3a44f-562f-4070-b6c3-e35c78e090da"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NHÀ SÁCH HOÀNG HÔN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="281" y="63" width="189" height="20" uuid="ceb5bf07-fb13-4042-b020-a5e5ced7ec30"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Email: nshoanghon@gmail.com]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

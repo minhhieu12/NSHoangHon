@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BOOKSTORE.jnlp">
+  <information>
+    <title>BOOKSTORE</title>
+    <vendor>Minh Hieu</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BOOKSTORE.jar" size="395775" download="eager" />
+    <jar href="lib\AbsoluteLayout.jar" size="2903" download="eager" />
+    <jar href="lib\jasperreports-6.10.0.jar" size="5549687" download="eager" />
+    <jar href="lib\jcalendar-1.2.2.jar" size="112356" download="eager" />
+    <jar href="lib\jdatepicker-1.3.4.jar" size="42949" download="eager" />
+    <jar href="lib\mssql-jdbc-8.4.1.jre8.jar" size="1300917" download="eager" />
+  </resources>
+  <application-desc main-class="bookstore.frameLogin"  name="BOOKSTORE" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
